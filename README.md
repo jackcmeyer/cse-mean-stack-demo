@@ -1,6 +1,10 @@
 # CSE MEAN Stack Demo
 MEAN Stack Demo given to the Iowa State Computer Science and Software Engineering Club on March 29, 2017
 
+# Contributors
+* [Jack Meyer](https://github.com/jackcmeyer) (presenter, created presentation)
+* [Adam Heimendinger](https://github.com/AdamHei) (presenter, created demo code)
+
 # Setup Node, Angular, MongoDB
 1. Install NodeJS [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 2. Install AngularCLI `npm install -g @angular/cli`
