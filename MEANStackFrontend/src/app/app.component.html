@@ -1,0 +1,25 @@
+<h1>
+    {{title}}
+</h1>
+
+<div>
+    <input #des>
+    <button (click)="addTODOItem(des.value)">Add TODO</button>
+</div>
+
+<br>
+<div *ngFor="let todo of todoList">
+    <div *ngIf="todo.completed" class="inline">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+    </div>
+    <div *ngIf="!todo.completed" class="inline">
+        <i class="fa fa-circle" aria-hidden="true"></i>
+    </div>
+    <div class="inline">
+        {{todo.description}}
+    </div>
+    <div class="inline" *ngIf="!todo.completed">
+        <button (click)="completeItem(todo._id)">Complete</button>
+    </div>
+    <br>
+</div>
